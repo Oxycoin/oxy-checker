@@ -92,7 +92,7 @@ echo "\t\t\tGoing to check for forked status now...\n";
     		// Check if path to oxy-snapshot exists..
         if(file_exists($snapshotDir)){
           
-          $snapshots = glob($snapshotDir.'snapshot/oxycoin_db'.date("d-m-Y").'*.snapshot.tar');
+          $snapshots = glob($snapshotDir.'snapshot/oxycoin_db_main'.date("d-m-Y").'*.snapshot.tar');
           if (!empty($snapshots)) {
         
             echo "\t\t\tA snapshot for today already exists:\n";
