@@ -1,4 +1,4 @@
-# oxy-checker
+# oxy-checker (DEPRECATED!)
 Current version: 1.0
 
 This script checks the status of your Oxy-node by using PHP.<br>
